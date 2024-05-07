@@ -1,14 +1,39 @@
-.App {
-  text-align: center;
-  display: flex;
+.app {
+  height: 100vh;
+  width: 100vw;
 }
 
-.left-column{
-  width: 25%;
-  background-color: red;
+
+.container{
+  margin-top: 5%;
+  max-height: 100%;
+
 }
 
-.right-column{
-  width: 75%;
-  background-color: blue;
+.img{
+  max-width: 80%;
+  max-height: 60vh;
 }
+
+.column {
+text-align: center;
+
+}
+
+.left{
+margin-right: 1%;
+max-width: 20%;
+background-color: #D3D3D3
+}
+
+.middle{
+background-color: #D3D3D3
+}
+
+.right{
+background-color: #D3D3D3
+}
+
+
+
+

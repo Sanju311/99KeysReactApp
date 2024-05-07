@@ -1,0 +1,38 @@
+.Input {
+    margin: 0 auto;
+    text-align: left;
+  }
+  
+  .Input input{
+    width: 100%;
+    margin-bottom: 10px;
+    border-radius: 5px;
+  }
+
+  .Input select{
+
+    display: block;
+    margin-bottom: 10px;
+    width: 100%;
+    border-radius: 5px;
+
+  }
+
+  .Input label{
+    text-align: left;
+    display: block;
+    border-radius: 5px;
+  }
+
+  .Input button{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+
+    background-color: #Ff5500;
+    color: white;
+    border: none;
+    font-size: large;
+    
+
+  }
