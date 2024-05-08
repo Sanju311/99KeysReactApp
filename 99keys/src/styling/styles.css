@@ -1,0 +1,42 @@
+.boundary{
+  position: relative;
+}
+    
+    .cropContainer {
+      position: relative;
+      background: '#333';
+      min-height:40vh;
+      display: block;
+
+    }
+
+    slider {
+      padding: '10px 0px';
+  }
+
+
+.row button{
+  margin-bottom: 20px;
+  border-radius: 5px;
+  width: auto;
+  display: block;
+
+  background-color: #Ff5500;
+  color: white;
+  border: none;
+  font-size: medium;
+}
+
+.buttons{
+  justify-content: space-around;
+  margin-top: 5vh;
+}
+
+
+img{
+  object-fit: scale-down;
+  display: block;
+  width: auto;
+  max-height: 50vh;
+  
+}

@@ -1,9 +1,7 @@
-import React,  {useState}  from 'react';
-import '../specifications.css';
-
+import React, {useState}  from 'react';
+import '../styling/specifications.css';
 
 function Specs (){
-
 
     //north is set to default
     const [data, setData] = useState({
@@ -17,7 +15,6 @@ function Specs (){
 
     });
 
-
     //pass the relevant function and event to be updated
     function handleChange(event) {
         const newdata = {...data};
@@ -25,18 +22,19 @@ function Specs (){
         console.log(event.target.label);
         
         setData(newdata);
-        
- 
     }
-
 
     function handleSubmit(){
-
-        console.log(data);
-
+        alert(
+            'Normally this data would be sent to backend but for now here it is:' +
+            '\nFloor Name: ' + data.name + 
+            '\nInterior Size: ' + data.sizeIn + 
+            '\nExterior Size: ' + data.sizeExt +
+            '\nExterior Type: ' + data.extType +
+            '\nFacing Direction: ' + data.direction +
+            '\nFloor Type: ' + data.floorType
+        )
     }
-
-
 
     return(
         <div className='Input'>
@@ -100,9 +98,7 @@ function Specs (){
             </button>
 
         </div>
-
     );
-    
 }
 
 export default Specs;

@@ -1,11 +1,11 @@
 
-import './App.css';
+import '../styling/App.css';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import Specs from './components/specifications.js';
-import Editor from './components/editor.js';
-import Plans from './components/floorPlans';
+import Specs from './specifications.js';
+import Editor from './editor.js';
+import Plans from './floorPlans';
 import React, {useState} from 'react';
 
 
@@ -13,8 +13,6 @@ function App() {
 
   //controls which file is being edited
   const[plan, setPlan] = useState('');
-
-  //const[editedPlan, setEditedPlan] = useState('');
 
   return (
     <div className = "app">
