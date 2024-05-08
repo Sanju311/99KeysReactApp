@@ -8,4 +8,5 @@ image is displayed. There also is a form for the user to fill out with details r
 as the challenge did not specify anything. Attached below is also a visual demo of the app in case there are issues cloning it. I look forward to hearing back for the interview! - Sanju S.
 
 
-![compressed_full_stack_demo](https://github.com/Sanju311/99KeysReactApp/assets/82499451/e194f1aa-4208-4b56-aaac-b31fe1754fe6)
+![compressed_99keys_demo](https://github.com/Sanju311/99KeysReactApp/assets/82499451/6e17f944-cc94-48c5-9d5b-f912a41c4c72)
+
